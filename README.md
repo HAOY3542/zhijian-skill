@@ -1,3 +1,5 @@
+![ZHIJIAN SKILL：地产营销平台经营方法](assets/zhijian-hero.png)
+
 # ZHIJIAN SKILL
 
 **周智健平台营销统筹与汇报方法 · v1.1**
