@@ -94,9 +94,10 @@ unzip zhijian-skill-v1.4.zip -d ~/.claude/skills/
 
 ## 和 XUEYANG SKILL 的关系
 
-[XUEYANG SKILL](https://github.com/HAOY3542/xueyang-skill) 是另一个地产营销汇报技能。它主要帮你把汇报写清楚，ZHIJIAN SKILL 主要帮你把账算明白、把方案定下来。
+写汇报常遇到两种难：一种是想清楚了，写不清楚；一种是写得出来，心里没底。
 
-两个技能互不依赖，单独装哪一个都能用。都装了的话，同一份材料也可以一起用。
+前一种交给 [XUEYANG SKILL](https://github.com/HAOY3542/xueyang-skill)，后一种交给 ZHIJIAN SKILL。两个技能互不依赖，可以只装一个，也可以都装上。
+
 
 ## 说明
 
