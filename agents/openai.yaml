@@ -1,4 +1,0 @@
-interface:
-  display_name: "ZHIJIAN SKILL · 周智健"
-  short_description: "平台营销统筹与汇报：贯通品牌、策划、渠道、费效及组织执行"
-  default_prompt: "请用 $zhijian-skill，结合我的资料与实际职责，完成这份平台营销汇报。"
