@@ -1,4 +1,4 @@
-![ZHIJIAN SKILL：地产营销平台经营方法](assets/zhijian-hero.png)
+![ZHIJIAN SKILL · 营销有章](assets/zhijian-hero.png)
 
 # ZHIJIAN SKILL
 
