@@ -92,9 +92,11 @@ unzip zhijian-skill-v1.4.zip -d ~/.claude/skills/
 - 这份方案下周上会，你先当领导过一遍，看看会在哪几页被问住。
 - 只调这三页的排版，文字和数字一个都别动。
 
-## 和 XUEYANG SKILL 一起用
+## 和 XUEYANG SKILL 的关系
 
-[XUEYANG SKILL](https://github.com/HAOY3542/xueyang-skill) 管的是一份汇报怎么讲清楚：一页一个结论，数字经得起追问。ZHIJIAN SKILL 管的是这件事值不值得做、规则怎么立、执行怎么盯。两个可以一起装，各管各的。
+两个技能互相独立，各自装上就能用，不需要搭配。
+
+如果两个都装了，也可以配合着用：[XUEYANG SKILL](https://github.com/HAOY3542/xueyang-skill) 让汇报讲得清，一页一个结论，数字经得起追问；ZHIJIAN SKILL 让汇报算得清，值不值得做，规则怎么立，执行谁来盯。用一个还是两个，看手上的活儿。
 
 ## 说明
 
