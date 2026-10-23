@@ -52,13 +52,13 @@ ZHIJIAN SKILL 整理自地产营销平台负责人周智健六年来数百份实
 
 ### 以 Claude 为例
 
-1. 到 [Releases](https://github.com/HAOY3542/zhijian-skill/releases) 下载最新的 `zhijian-skill-v1.3.zip`。
+1. 到 [Releases](https://github.com/HAOY3542/zhijian-skill/releases) 下载最新的 `zhijian-skill-v1.4.zip`。
 2. 在 Claude 里打开 **Customize > Skills**，点 **+** → **Create skill** → **Upload a skill**，把 ZIP 传上去。传不上去的话，先到 Settings > Capabilities 里打开代码执行。
 3. 在对话里说一句"用 ZHIJIAN SKILL 写这份复盘"，再把材料发给它。
 
 ### 以 Codex 为例
 
-1. 同样下载 `zhijian-skill-v1.3.zip`，记下文件保存位置。
+1. 同样下载 `zhijian-skill-v1.4.zip`，记下文件保存位置。
 2. 在 Codex 的本地聊天中提供 ZIP 的完整路径，并发送：
 
    > 请读取这个 ZIP，将其中的 zhijian-skill 文件夹安装到我的个人技能目录 ~/.agents/skills/。若已有同名技能，先备份再更新；安装后确认 zhijian-skill/SKILL.md 可以读取。
@@ -74,7 +74,7 @@ ZHIJIAN SKILL 整理自地产营销平台负责人周智健六年来数百份实
 
 ```bash
 mkdir -p ~/.claude/skills
-unzip zhijian-skill-v1.3.zip -d ~/.claude/skills/
+unzip zhijian-skill-v1.4.zip -d ~/.claude/skills/
 ```
 
 **其他工具**：支持 SKILL.md 格式的，放进技能目录即可；不支持的，把 SKILL.md 全文当提示词用。
