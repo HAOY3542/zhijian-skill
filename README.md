@@ -56,7 +56,7 @@ ZHIJIAN SKILL 整理自地产营销平台负责人周智健六年来数百份实
 2. 在 Claude 里打开 **Customize > Skills**，点 **+** → **Create skill** → **Upload a skill**，把 ZIP 传上去。传不上去的话，先到 Settings > Capabilities 里打开代码执行。
 3. 在对话里说一句"用 ZHIJIAN SKILL 写这份复盘"，再把材料发给它。
 
-### 以 Codex 为例（本机使用）
+### 以 Codex 为例
 
 1. 同样下载 `zhijian-skill-v1.3.zip`，记下文件保存位置。
 2. 在 Codex 的本地聊天中提供 ZIP 的完整路径，并发送：
