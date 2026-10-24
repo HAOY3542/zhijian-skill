@@ -14,17 +14,26 @@ ZHIJIAN SKILL 整理自地产营销平台负责人周智健六年来数百份实
 
 ## 一句话的差别
 
-同一件事，常见的写法是：
+报喜，常见的写法是：
+
+> 本月成交 32 套，超额完成任务，营销工作成效显著。
+
+照他的路子会这样写（数据为虚构，下同）：
+
+> **■ 本月成交 32 套，完成目标的 128%，区域同类项目第一。**
+> 每套营销成本从 6.2 万降到 4.1 万；新开的老带新通道带来 7 套成交。下月把这条通道再放大一倍，所需费用请领导确认。
+
+报忧，常见的写法是：
 
 > 本季度大力拓展合作资源，新增注册 300 人，渠道建设成效显著。
 
-照他的路子会这样写（数据为虚构）：
+照他的路子：
 
 > **■ 合作资源：新增 300 人，但真正带来客户的只有 12 人，比上季度还少 5 人。**
 > 现状不足：拉新有考核，维护没考核，人进来了就没人管。
 > 改进措施：① 按活跃程度把资源分成三层，每层定好维护频次和负责人，月底前完成；② 下季度只考核带来客户的人数，不再考核注册数。
 
-第一种写法讲的是忙了多少，第二种写法讲的是哪里没做好、打算怎么补。
+常见的写法，好事坏事都只剩一句"成效显著"。照他的路子，好消息讲出分量，坏消息讲出办法。
 
 ## 他的六个习惯
 
@@ -60,13 +69,13 @@ ZHIJIAN SKILL 整理自地产营销平台负责人周智健六年来数百份实
 
 ### 以 Claude 为例
 
-1. 到 [Releases](https://github.com/HAOY3542/zhijian-skill/releases) 下载最新的 `zhijian-skill-v2.0.zip`。
+1. 到 [Releases](https://github.com/HAOY3542/zhijian-skill/releases) 下载最新的 `zhijian-skill-v2.1.zip`。
 2. 在 Claude 里打开 **Customize > Skills**，点 **+** → **Create skill** → **Upload a skill**，把 ZIP 传上去。传不上去的话，先到 Settings > Capabilities 里打开代码执行。
 3. 在对话里说一句"用 ZHIJIAN SKILL 写这份复盘"，再把材料发给它。
 
 ### 以 Codex 为例
 
-1. 同样下载 `zhijian-skill-v2.0.zip`，记下文件保存位置。
+1. 同样下载 `zhijian-skill-v2.1.zip`，记下文件保存位置。
 2. 在 Codex 的本地聊天中提供 ZIP 的完整路径，并发送：
 
    > 请读取这个 ZIP，将其中的 zhijian-skill 文件夹安装到我的个人技能目录 ~/.agents/skills/。若已有同名技能，先备份再更新；安装后确认 zhijian-skill/SKILL.md 可以读取。
@@ -82,7 +91,7 @@ ZHIJIAN SKILL 整理自地产营销平台负责人周智健六年来数百份实
 
 ```bash
 mkdir -p ~/.claude/skills
-unzip zhijian-skill-v2.0.zip -d ~/.claude/skills/
+unzip zhijian-skill-v2.1.zip -d ~/.claude/skills/
 ```
 
 **其他工具**：支持 SKILL.md 格式的，放进技能目录即可；不支持的，把 SKILL.md 全文当提示词用。
